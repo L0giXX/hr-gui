@@ -1,0 +1,114 @@
+.div-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: solid 1px #ccc;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav {
+    gap: 1.5rem;
+  }
+}
+
+nav a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: rgb(107 114 128);
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(75 85 99);
+}
+
+#nav-a-main {
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+main section {
+  display: flex;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+}
+
+footer p {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+footer nav {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+footer nav a {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+  color: #007bff;
+  text-decoration: underline;
+  text-underline-offset: 0.15rem;
+}

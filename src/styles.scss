@@ -1,6 +1,9 @@
-:root {
-  font-family: 'Inter', sans-serif;
-
+@font-face {
+  font-family: geist;
+  src: url(assets/font/Geist-Regular.otf) format("opentype");
 }
 
-html, body { height: 100%; }
+body {
+  font-family: geist, sans-serif;
+  height: 100%;
+}

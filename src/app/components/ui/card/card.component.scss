@@ -1,0 +1,37 @@
+.custom-card {
+  border-radius: 4px;
+  border: 1px solid rgb(229 231 235);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  fill: none;
+  stroke: rgb(107 114 128);
+  stroke-width: 2px;
+}
+
+.card-content {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

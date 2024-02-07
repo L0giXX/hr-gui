@@ -13,22 +13,16 @@
   align-items: center;
   margin-bottom: 16px;
 }
+.card-icon {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
 
 .card-title {
   font-size: 1rem;
   font-weight: normal;
   margin: 0;
-}
-
-.icon-container {
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  fill: none;
-  stroke: rgb(107 114 128);
-  stroke-width: 2px;
 }
 
 .card-content {

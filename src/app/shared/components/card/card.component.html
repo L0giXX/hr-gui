@@ -1,0 +1,11 @@
+<div class="custom-card">
+  <div class="card-header">
+    <h3 class="card-title">{{ cardTitle }}</h3>
+    <ng-container *ngIf="iconName" !="">
+      <lucide-icon class="card-icon" name="{{ iconName }}"></lucide-icon>
+    </ng-container>
+  </div>
+  <div class="card-body">
+    <div class="card-content">{{ cardValue }}</div>
+  </div>
+</div>

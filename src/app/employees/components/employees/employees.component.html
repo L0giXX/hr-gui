@@ -1,7 +1,7 @@
 <main>
   <div class="split">
-    <app-search></app-search>
-    <app-filter></app-filter>
-    <button>Sort Table</button>
+    <app-search #search></app-search>
+    <app-filter #filter></app-filter>
+    <button type="button" (click)="searchEmployees()">Sort Table</button>
   </div>
 </main>

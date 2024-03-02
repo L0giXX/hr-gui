@@ -1,0 +1,20 @@
+<main>
+  <div *ngIf="departmentsData.length > 0; else noData">
+    <h1>Home Data:</h1>
+    <ul>
+      <div *ngFor="let department of departmentsData">
+        <h2>{{ department.name }}</h2>
+        <ul>
+          <li *ngFor="let employee of department.employees">
+            {{ employee.firstName }} {{ employee.lastName }} -
+            {{ employee.position }}
+          </li>
+        </ul>
+      </div>
+    </ul>
+  </div>
+
+  <ng-template #noData>
+    <p>No data available.</p>
+  </ng-template>
+</main>
